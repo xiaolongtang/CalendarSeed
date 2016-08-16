@@ -9,7 +9,11 @@ define([
     'routes',
     'interceptors',
     'px-datasource',
-    'ng-bind-polymer'
+    'ng-bind-polymer',
+    'moment',
+    'calendar',
+    'fullcalendar',
+    'gcal'
 ], function ($, angular) {
     'use strict';
 
@@ -23,7 +27,9 @@ define([
         'app.interceptors',
         'sample.module',
         'predix.datasource',
-        'px.ngBindPolymer'
+        'px.ngBindPolymer',
+        'ui.calendar'
+
     ]);
 
     /**

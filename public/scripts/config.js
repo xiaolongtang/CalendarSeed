@@ -68,6 +68,12 @@ require.config({
         lodash: '../bower_components/lodash/dist/lodash.min',
         jquery: '../bower_components/jquery/dist/jquery.min',
 
+        //calendar
+        'moment': '../bower_components/moment/min/moment.min',
+        'calendar': '../bower_components/angular-ui-calendar/src/calendar',
+        'fullcalendar': '../bower_components/fullcalendar/dist/fullcalendar.min',
+        'gcal': '../bower_components/fullcalendar/dist/gcal',
+
     },
     priority: [
         'jquery',
