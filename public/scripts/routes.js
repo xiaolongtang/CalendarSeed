@@ -42,6 +42,12 @@ define(['angular', 'angular-ui-router'], function(angular) {
             .state('blanksubpage', {
                 url: '/blanksubpage',
                 templateUrl: 'views/blank-sub-page.html'
+            })
+            .state('calendar', {
+                parent: 'secure',
+                url: '/calendar',
+                templateUrl: 'views/calendar.html',
+                controller: 'CalendarCtrl'
             });
 
 
